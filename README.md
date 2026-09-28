@@ -48,14 +48,13 @@ These values are sent to the Gemini model through a dedicated AI service.
 
 Gemini returns structured JSON containing:
 
+```json
 {
-"title": "Product title",
-"description": "Product description",
-"keywords": [
-"keyword1",
-"keyword2",
-"keyword3",
-"keyword4",
-"keyword5"
-]
+  "title": "Product title",
+  "description": "Product description",
+  "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5"]
 }
+```
+## Author
+
+Chandranil Adhikary
